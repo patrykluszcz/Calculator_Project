@@ -1,0 +1,5 @@
+@mixin position($type, $width, $height) {
+  position: $type;
+  width: $width;
+  height: $height;
+}

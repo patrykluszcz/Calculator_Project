@@ -1,0 +1,25 @@
+@use "./mixins" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  // min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  background: url("../images/polar-lights-g4ef690947_1920.jpg");
+  background-size: cover;
+}
+
+.wrapper {
+  @include position(absolute, 100%, 100%);
+  top: 0%;
+  left: 0%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: -1;
+}
